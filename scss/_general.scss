@@ -12,3 +12,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

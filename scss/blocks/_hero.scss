@@ -1,8 +1,103 @@
-.hero{
+.hero {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: yellow;
-    background-image: url('');
+    background-image: url('../imgs/bg_image.jpg');
     background-size: 100% 100%;
+    background-position: center center;
     background-repeat: no-repeat;
+}
+@media screen and (max-width:578px) {
+    .hero{
+        background-size: cover;
+    }
+}
+.hero__inner{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.hero__title{
+    font-family: $font-bebas;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.hero__desc{
+    font-family: $font-bebas;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+.hero__link{
+    padding: 18px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    display: inline-block;
+    font-family: $font-opensans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1a1917;
+
+}
+.hero__price{
+    margin-left: 10px;
+}
+.hero__price{
+    padding-left: 14px;
+    border-left: 1px solid #1A1917;
+}
+@media screen and (max-width:780px) {
+    .hero__title{
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .hero__desc{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+    .hero__link{
+        font-size: 14px;
+        line-height: 19px;
+        padding: 12px 10px;
+    }
+}
+@media screen and (max-width:450px) {
+    .hero__inner{
+        top: 40%;
+        width: 100%;
+    }
+    .hero__title{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .hero__desc{
+        font-size: 14px;
+
+    }
+    .hero__link {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 12px 10px;
+        .hero__price{
+            margin-left: 5px;
+            padding-left: 8px;
+        }
+    }
 }

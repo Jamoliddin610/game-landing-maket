@@ -13,10 +13,10 @@
 <body>
 <section class="hero">
   <header class="site-head head">
-    <div class="head__box container">
-      <img src="imgs/logo.png" alt="logo-img" class="head__logo">
-      <nav class="head__nav-list-box">
-        <ul class="head__nav-list">
+    <div class="head__box container row">
+      <a href="#" class="head__logo-link"><img src="imgs/logo.png" alt="logo-img" class="head__logo"></a>
+      <nav class="head__nav-list-box" id="head-nav">
+        <ul class="head__nav-list row">
           <li class="head__nav-items"><a href="#" class="head__nav-link">MAIN</a></li>
           <li class="head__nav-items"><a href="#" class="head__nav-link">about</a></li>
           <li class="head__nav-items"><a href="#" class="head__nav-link">game features</a></li>
@@ -24,8 +24,9 @@
           <li class="head__nav-items"><a href="#" class="head__nav-link">quotes</a></li>
         </ul>
       </nav>
-      <div class="head__lang-modal">
-        <a href="#" class="head__lang-link">eng <i class="bx bx-chevron-down"></i></a>
+      <div class="head__set-box row">
+        <div class="head__lang-modal">
+        <a href="#" class="head__lang-link open-show">eng <i class="bx bx-chevron-down"></i></a>
         <nav class="head__lang-box">
           <ul class="head__lang-list">
             <li class="head__lang-items"><a href="#" class="head__lang-link">uzb</a></li>
@@ -34,12 +35,21 @@
           </ul>
         </nav>
       </div>
-      <ul class="head__apps-list">
-        <li class="head__apps-items"><a href="#" class="head__apps-link"></a></li>
-        <li class="head__apps-items"><a href="#" class="head__apps-link"></a></li>
+      <ul class="head__apps-list row">
+        <li class="head__apps-items"><a href="#" class="head__apps-link"><img src="imgs/xboxicon.svg" alt="xbox"></a></li>
+        <li class="head__apps-items"><a href="#" class="head__apps-link"><img src="imgs/Union.svg" alt="union"></a></li>
       </ul>
+      <button class="head__menu-icon" id="openbtn"><img src="imgs/menuicon.svg" alt="menuibon"></button>
+      <button class="head__close-btn" id="closebtn"><i class="bx bx-x"></i></button>
+      </div>
+
     </div>
   </header>
+  <div class="hero__inner">
+    <h2 class="hero__title">SURVIVE AT ALL COSTS</h2>
+    <p class="hero__desc">Experience new social battle royale game</p>
+    <a href="#" class="hero__link">Buy Now on Steam <span class="hero__price">$14.99</span></a>
+  </div>
 </section>
   <script src="js/main.js"></script>
 </body>
