@@ -145,9 +145,19 @@
     }
     .head__menu-icon{
         display: block;
+        position: relative;
+        z-index: 99;
     }
     .head__lang-modal{
         z-index: 10;
     }
 }
 
+@media screen and (max-width:400px) {
+    .show-modal{
+        width: 100%;
+    }
+    .head__close-btn{
+        right: 20px;
+    }
+}

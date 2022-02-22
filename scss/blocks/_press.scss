@@ -1,0 +1,127 @@
+.press{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.press__cont{
+    display: flex;
+}
+.press__quote{
+    width: 50%;
+    height: 100vh;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.press__quote-desc{
+    font-family: $font-bebas;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.press__quote-title{
+    font-family: $font-bebas;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+.press__quote-text{
+    width:  435px;
+    font-family: $font-opensans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.press__quote-link{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    padding: 19px 34px ;
+    font-family: $font-opensans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #1a1917;
+    width: 260px;
+}
+
+.press__opinions{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.press__opinion-box{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    width: 455px;
+    padding: 13px 20px 20px 13px;
+    color: #fff;
+    position: relative;
+    margin-bottom:  20px;
+}
+.press__opinion-smn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.press__opinion-text-box{
+    padding-left: 22px;
+}
+.press__opinion-title{
+    font-family: $font-bebas;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+.press__opinion-desc{
+    font-family: $font-opensans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #fff;
+    opacity: 0.5;
+}
+.press__opinion-text{
+    font-family: $font-opensans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.press__opinion-date{
+    font-family: $font-opensans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.press__opinion-icon{
+    position: absolute;
+    top: 30px ;
+    right: 20px;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-size: 20px
+}
+.right-p{
+    margin-left: auto;
+}
